@@ -1,4 +1,6 @@
 -- Which three teams had the losingest seasons?
+-- SM iterated on code line 3 to output table shown in "expected result"
+SELECT year, name, wins, losses FROM teams ORDER BY losses DESC LIMIT 3; 
 
 -- Expected result:
 --
